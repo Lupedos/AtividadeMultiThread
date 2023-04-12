@@ -56,6 +56,45 @@ class car3 extends Thread{
 		}
 	}
 }
+class car4 extends Thread{
+	int d =200 ;
+	int a ;
+	int i ;
+	Random random = new Random();
+	public void run() {
+		for(i=0;i<d;) {
+			 a = random.nextInt(50);
+			 i = i + a;
+			System.out.println("carro_4 andou:" + a +"metros"+ "    e já percorreu:"+i);
+			if(i>d){
+				System.out.println("chegou carro4 parabens"); }
+			
+			//try {Thread.sleep(1000);}catch(Exception e) {}//5 segundos
+			
+		}
+	}
+}
+class car5 extends Thread{
+	int d =200 ;
+	int a ;
+	int i ;
+	Random random = new Random();
+	public void run() {
+		for(i=0;i<d;) {
+			 a = random.nextInt(50);
+			 i = i + a;
+			System.out.println("carro_5 andou:" + a +"metros"+ "    e já percorreu:"+i);
+			if(i>d){
+				System.out.println("chegou carro5 parabens"); }
+			
+			//try {Thread.sleep(1000);}catch(Exception e) {}//5 segundos
+			
+		}
+	}
+}
+
+
+
 public class Corrida {
 	public static void main(String[]args) {
 		System.out.println("Ready");
@@ -76,4 +115,5 @@ public class Corrida {
 		
 		//obj1.disp();
 		//obj2.disp();
+}
 }
