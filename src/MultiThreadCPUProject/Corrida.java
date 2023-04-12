@@ -1,4 +1,5 @@
-package teste;
+
+package MultiThreadCPUProject;
 import java.util.Random;
 
 class car1 extends Thread{
