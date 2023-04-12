@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author luped
+ *
+ */
+module MultiThreadCPUProject {
+}
